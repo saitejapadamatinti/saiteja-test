@@ -1,0 +1,222 @@
+.main-container {
+  padding: 50px;
+  width: 100vw;
+}
+.add-video-card-main-div {
+  display: flex;
+
+  gap: 30px;
+}
+.add-category-box {
+  width: 50%;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.caterogy-name-input {
+  width: 100%;
+  border: 1px solid;
+  border-color: rgb(178, 178, 178);
+  font-size: 18px;
+  padding: 5px;
+}
+.caterogy-name-input-padding {
+  margin: 15px 0px;
+}
+.add-category-add-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: rgb(0, 124, 207);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.options-class {
+  width: 100%;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.out-put-data-div {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  gap: 50px;
+  overflow: auto;
+}
+.category-output-data-div {
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.each-category-head {
+  background-color: rgb(0, 124, 207);
+  padding: 10px;
+  color: #fff;
+  width: 400px;
+}
+.each-category-video-item {
+  padding: 10px;
+  border: 1px solid #c6c6c6;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-item-spam-title {
+  width: 250px;
+}
+.play-icon {
+  width: 40px;
+  height: 40px;
+  color: rgb(0, 124, 207);
+  cursor: pointer;
+}
+
+.poput-main-div {
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 100vw;
+  height: 100vh;
+}
+.popup-div {
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+.popup-edit-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.popup-input-title {
+  width: 450px;
+  padding: 10px;
+}
+.all-popup-div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.edit-icon-div {
+  background-color: rgb(36, 144, 0);
+  cursor: pointer;
+  color: #fff;
+  padding: 8px;
+  font-size: 36px;
+  border-radius: 50%;
+}
+.delete-btn-div {
+  background-color: red;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .edit-delet-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.history-div {
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.history-item-each-div {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 10px;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.history-data-para {
+  width: 50%;
+}
+.edit-click-btn {
+  border: none;
+  background-color: transparent;
+}
+.clear-history-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.history-clear-text {
+  cursor: pointer;
+  color: #1063ff;
+  text-decoration: underline;
+}
+.you-didt-chat-div{
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .main-container {
+    padding: 10px;
+  }
+  .add-video-card-main-div {
+    flex-direction: column;
+  }
+  .add-category-box {
+    width: 100%;
+  }
+  .add-category-box {
+    padding: 20px;
+  }
+  .out-put-data-div {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .category-output-data-div {
+    width: 100%;
+  }
+  .category-output-data-div {
+    width: 100%;
+  }
+  .each-category-head {
+    width: auto;
+  }
+  .popup-input-title {
+    max-width: 300px;
+    font-size: 14px;
+  }
+}
